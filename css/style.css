@@ -76,9 +76,9 @@ h3.menu-item-title {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-	.navbar-brand {
+   .navbar-brand {
     padding-top: 20px;
-    height: 80px;
+    height: 10vh;
     margin: 5px 5px 5px 0;
   }
   .navbar-brand h1 {
@@ -90,7 +90,7 @@ h3.menu-item-title {
 @media (max-width: 767px) {
   .navbar-brand {
     padding-top: 10px;
-    height: 80px;
+    height: 10vh;
     margin: 5px 5px 5px 0;
   }
 
