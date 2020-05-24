@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    height: 12vh;
+    background-color: rgb(93, 231, 208);
+}
+.logo {
+    font-size: 30px;
+    color: black;
+}
+nav a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-header{
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.row {
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 12px;
+}
+
+.box {
+    text-align: center;
+}
+
+p {
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.large {
+    width: 31%;
+    float: left;
+    border: 1px solid black;
+    margin: 16px;
+    padding-bottom: 8px;
+    background-color: rgb(197, 193, 193);
+}
+
+#nav-list {
+    width: 100%;
+    margin-top: 16px;
+    
+}
+#nav-list a {
+    color: rgb(35, 111, 224);
+    text-align: center;
+    
+}
+#nav-list a:hover {
+    color: rgb(66, 248, 66);
+    border: 1px solid gray;
+}
+
+@media (min-width: 850px) and (max-width: 1199px){
+    .navbar{
+        padding: 40px 50px;
+        height: 10vh;
+    }
+    h1{
+        padding-top: 150px;
+    }
+    .col-md-4 {
+        width: 46.2%;
+    }
+    .col-md-6 {
+        width: 96%;
+    }
+}
+
+@media (max-width: 848px) {
+    .navbar {
+        padding: 10px 30px;
+    }
+    .logo {
+        font-size: 25px;
+    }
+
+    .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+        border: 2px solid black;
+        margin: 0;
+    }
+    .col-sm-3{
+        width: 94%;
+    }
+}
